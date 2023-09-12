@@ -9,12 +9,15 @@
           <v-app-bar-title>
             {{ userProp.name }} {{ userProp.surname }}..:
           </v-app-bar-title>
+            <v-app-bar-title>
+<router-link class="homePage" to="/">Ana Sayfa        
+       </router-link></v-app-bar-title>
         </template>
 <div v-if="isAdmin">
       <v-btn @click="goToAdmin">Admin</v-btn>
     </div>
-<router-link to="/">Ana Sayfa        
-       </router-link>
+        
+
 
 
         <v-btn @click="handleLogout">
@@ -51,4 +54,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.homePage{
+  color:aliceblue;
+}
+</style>

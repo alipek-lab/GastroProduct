@@ -21,6 +21,7 @@ const routes = [
     name: "todo",
     component: TodoView,
   },
+ 
   {
     path: "/admin",
     name: "admin",

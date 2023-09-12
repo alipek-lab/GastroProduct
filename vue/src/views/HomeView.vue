@@ -1,10 +1,8 @@
 <template>
   <div class="home">
     <div class="mt-16">Home Page</div>
-    <v-btn @click="onClick">Pizza Varieties</v-btn>
-<div v-if="isAdmin">
-      <v-btn @click="goToAdmin">Admindi</v-btn>
-    </div>
+    <v-btn @click="onClick">Order Pizza</v-btn>
+
   </div>
 </template>
         
